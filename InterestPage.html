@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/InterestPage.css">
+    <title>Interest Page</title>
+</head>
+
+<body>
+    <div id="start">
+        <a href="#start">
+        </a>
+        <ul>
+            <li><a href="#Container">Top 5 Books</a></li>
+            <li><a href="#series">Top 5 Series</a></li>
+            <li><a href="#divreferences">References</a></li>
+            <li><a href="resume.html">Resume page</a></li>
+            <li><a href="htmlCheat.html">HTML Cheat</a></li>
+        </ul>
+    </div>
+    <p id="p">If you want to change the Background color, go a head in the next button: <button type="button"
+            class="myButton" onclick="changeBackground()" id="myBtn" name="button">Change Background color!</button></p>
+    <p id="answer"></p>
+    <h1 class="title">Top 5 my favorite books</h1>
+    <div class="Container">
+        <a href="#Container"></a>
+        <div class="Image">
+            <img id="im" src="img/Book1.jpg" alt="">
+        </div>
+        <div class="Nav">
+            <button class="books" type="button" name="prev" onclick="getPrevious()">Previous</button>
+            <button class="books" type="button" name="next" onclick="getNext()">Next</button>
+
+        </div>
+    </div>
+    <div id="series">
+        <h1 class="title">Top 10 my favorite series</h1>
+        <a href="#series"></a>
+
+        <div class="accordionWrapper">
+            <div class="accordionItem open">
+                <h2 class="accordionItemHeading">Top 1 - The Office</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/_mwRGb21tPE?si=ZpC4Ey2-3qIfXWMV&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 2 - Friends</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/IEEbUzffzrk?si=57BfrGcimmCArTjf&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 3 - The Big Bang Theory</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/3g2yTcg1QFI?si=mQIjBJ37VMeh0Rc5&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 4 - Game of Thrones</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/bjqEWgDVPe0?si=HveeoCFj2i4Dr1xK&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 5 - Breaking bad</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/VFLkMDEO-Xc?si=W0aVnslYcO9n25YQ&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 6 - Vikingos</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/9GgxinPwAGc?si=J2N37c-zzd9dbofE&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 7 - Dark</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/rrwycJ08PSA?si=qY1Gi3U1ti4wVnhJ&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 8 - How I Met Your Mother</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/CKI5zZmOAhE?si=C6EyruPZemWpo5TM&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 9 - Modern Family</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/X0lRjbrH-L8?si=S3nzq8o2D8PSDyWB&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="accordionItem close">
+                <h2 class="accordionItemHeading">Top 10 - The Last Kingdom</h2>
+                <div class="accordionItemContent">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/9Za_bQYuL1w?si=B5vJ0Rywcgh0cvFT&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        *Source videos: YouTube
+    </div>
+    <div id="divreferences">
+        <a href="#divreferences"></a>
+        <h1 class="title" id="references">References</h1>
+        <ol>
+            <li>
+                <p>Amazon. Cover page of book Love in the Time of Cholera by Gabriel Garcia Marquez. Retrieved April 20,
+                    2024, from <a href="https://m.media-amazon.com/images/I/81NtAdQ3sUL._AC_UF1000,1000_QL80_.jpg"
+                        target="_blank">https://m.media-amazon.com/images/I/81NtAdQ3sUL._AC_UF1000,1000_QL80_.jpg</a>
+                </p>
+            </li>
+            <li>
+                <p>eBay. Cover page of book One hundred years of solitude by Gabriel Garcia Marquez. Retrieved April 20,
+                    2024, from <a href="https://i.ebayimg.com/images/g/sv4AAOSwW4db1Jec/s-l1600.jpg"
+                        target="_blank">https://i.ebayimg.com/images/g/sv4AAOSwW4db1Jec/s-l1600.jpg</a></p>
+            </li>
+            <li>
+                <p>HarperCollins Publishers. Cover page of book The little prince by Antoine de Saint-Exupery. Retrieved
+                    April 20, 2024, from <a href="https://i.harperapps.com/covers/9781405288125/y648.jpg"
+                        target="_blank">https://i.harperapps.com/covers/9781405288125/y648.jpg</a>
+                </p>
+            </li>
+            <li>
+                <p>Amazon. Cover page of book Don Quijote de la mancha by Miguel de Cervantes. Retrieved April 20, 2024,
+                    from <a href="https://m.media-amazon.com/images/I/71kdJikvR4L._AC_UF1000,1000_QL80_.jpg"
+                        target="_blank">https://m.media-amazon.com/images/I/71kdJikvR4L._AC_UF1000,1000_QL80_.jpg</a>
+                </p>
+            </li>
+            <li>
+                <p>Amazon. Cover page of Cemetery of Forgotten, 4 books collection set by Carlos Ruiz Zafón. Retrieved
+                    April 20, 2024,
+                    from <a href="https://m.media-amazon.com/images/I/71C7VABpZML._AC_UF1000,1000_QL80_.jpg"
+                        target="_blank">https://m.media-amazon.com/images/I/71C7VABpZML._AC_UF1000,1000_QL80_.jpg</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie The Office. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/_mwRGb21tPE?si=ZpC4Ey2-3qIfXWMV&amp;start=1"
+                        target="_blank">https://www.youtube.com/embed/_mwRGb21tPE?si=ZpC4Ey2-3qIfXWMV</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Friends. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/IEEbUzffzrk?si=57BfrGcimmCArTjf"
+                        target="_blank">https://www.youtube.com/embed/IEEbUzffzrk?si=57BfrGcimmCArTjf</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie The Big Bang Theory. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/3g2yTcg1QFI?si=mQIjBJ37VMeh0Rc5"
+                        target="_blank">https://www.youtube.com/embed/3g2yTcg1QFI?si=mQIjBJ37VMeh0Rc5</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Game of Thrones. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/bjqEWgDVPe0?si=HveeoCFj2i4Dr1xK"
+                        target="_blank">https://www.youtube.com/embed/bjqEWgDVPe0?si=HveeoCFj2i4Dr1xK</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Breaking bad. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/VFLkMDEO-Xc?si=W0aVnslYcO9n25YQ"
+                        target="_blank">https://www.youtube.com/embed/VFLkMDEO-Xc?si=W0aVnslYcO9n25YQ</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Vikingos. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/9GgxinPwAGc?si=J2N37c-zzd9dbofE"
+                        target="_blank">https://www.youtube.com/embed/9GgxinPwAGc?si=J2N37c-zzd9dbofE</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Dark. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/rrwycJ08PSA?si=qY1Gi3U1ti4wVnhJ"
+                        target="_blank">https://www.youtube.com/embed/rrwycJ08PSA?si=qY1Gi3U1ti4wVnhJ</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie How I Met Your Mother. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/CKI5zZmOAhE?si=C6EyruPZemWpo5TM"
+                        target="_blank">https://www.youtube.com/embed/CKI5zZmOAhE?si=C6EyruPZemWpo5TM</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer serie Modern Family. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/X0lRjbrH-L8?si=S3nzq8o2D8PSDyWB"
+                        target="_blank">https://www.youtube.com/embed/X0lRjbrH-L8?si=S3nzq8o2D8PSDyWB</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. Trailer The last Kingdom. Retrieved April 20, 2024, from
+                    <a href="https://www.youtube.com/embed/9Za_bQYuL1w?si=B5vJ0Rywcgh0cvFT"
+                        target="_blank">https://www.youtube.com/embed/9Za_bQYuL1w?si=B5vJ0Rywcgh0cvFT</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. HTML Tutorial for beginners. Retrieved April 19, 2024, from
+                    <a href="https://youtu.be/qz0aGYrrlhU" target="_blank">https://youtu.be/qz0aGYrrlhU</a>
+                </p>
+            </li>
+            <li>
+                <p>YouTube. HTML Tutorial. Retrieved April 19, 2024, from
+                    <a href="https://youtu.be/PlxWf493en4" target="_blank">https://youtu.be/PlxWf493en4</a>
+                </p>
+            </li>
+        </ol>
+
+
+
+
+    </div>
+    <a href="#start" id="btnup" type="button"><span class="material-symbols-outlined">
+            arrow_upward_alt
+        </span>
+    </a>
+
+    <script src="js/InterestPage.js"></script>
+</body>
+
+</html>
