@@ -44,21 +44,13 @@ h6 {
     padding: 1%;
 }
 
-#experience1 {
-    padding: 1%;
-}
-
-#experience2 {
-    padding: 1%;
-}
-
-#experience3 {
+#experience {
     padding: 1%;
 }
 
 #contactme {
     background-color: #867070;
-    padding: 5%;
+    padding: 1.5%;
     color: white;
 }
 
@@ -138,7 +130,7 @@ li a:hover {
     width: 20%;
 }
 
-#div-volunteer {
+#portfolio {
     padding: 1%;
 }
 
