@@ -1,18 +1,18 @@
 .sedan-regular {
-    font-family: "Sedan", serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
 }
 
 .sedan-regular-italic {
-    font-family: "Sedan", serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: italic;
 }
 
 body {
-    background-color: #F5EBEB;
-    font-family: "Sedan", serif;
+    background-color: #E9D8A6;
+    font-family:'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
 }
@@ -20,11 +20,12 @@ body {
 h1,
 h2,
 h6 {
-    font-family: sedan-regular;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 #name {
-    background-color: #867070;
+    background-color: #005F73;
     text-align: center;
     font-size: xx-large;
     color: snow;
@@ -34,12 +35,13 @@ h6 {
 #Professional {
     width: 100%;
     margin: auto;
-    background-color: #D5B4B4;
+    background-color: #F2F2F2;
+    color:#005F73;
     padding: 1%;
 }
 
 #skills {
-    background-color: #E4D0D0;
+    background-color: #94D2BD;
     border: 8;
     padding: 1%;
 }
@@ -49,7 +51,7 @@ h6 {
 }
 
 #contactme {
-    background-color: #867070;
+    background-color: #005F73;
     padding: 1.5%;
     color: white;
 }
@@ -61,7 +63,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #005F73;
 }
 
 li {
@@ -77,7 +79,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #867070;
+    background-color: #E9D8A6;
+    color: black;
 }
 
 #Button {
@@ -91,6 +94,7 @@ li a:hover {
 
 #diveducation {
     padding: 1%;
+    background-color: #94D2BD;
 }
 
 
@@ -118,7 +122,8 @@ li a:hover {
     bottom: 100px;
     left: 0px;
     z-index: 99999;
-    background-color: #D5B4B4;
+    background-color: #005F73;
+    color:#E9D8A6;
 }
 
 #btnl {
@@ -132,8 +137,18 @@ li a:hover {
 
 #portfolio {
     padding: 1%;
+    background-color: #94D2BD;
 }
+
+#experience {
+    padding: 1%;
+    background-color: #E9D8A6;
+    color: #005F73;
+}
+
 
 #languages {
     padding: 1%;
+    background-color: #E9D8A6;
+    color: #005F73;
 }
