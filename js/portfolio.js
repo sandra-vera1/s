@@ -2,7 +2,7 @@ const projects = [
     {
         project: "Contact Messages Website",
         description: "Practice of actions: creating, updating, deleting and listing contact messages and a graphic of messages per day.",
-        tech: "Classic ASP, VBScript, ASP.NET MVC, C#, SQL Server, JavaScript, HTML, CSS, Bootstrap, Chartjs library.",
+        tech: "Classic ASP, VBScript, ASP.NET MVC, Entity Framework, C#, SQL Server, JavaScript, HTML, CSS, Bootstrap, Chartjs library.",
         link: "https://github.com/sandra-vera1/PracticesASP_ASP.NET",
         mode: "Individual Project"
     },
