@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .sedan-regular {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
@@ -12,7 +16,7 @@
 
 body {
     background-color: #E9D8A6;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
@@ -37,7 +41,7 @@ h6 {
     width: 100%;
     margin: auto;
     background-color: #F2F2F2;
-    color:#005F73;
+    color: #005F73;
     padding: 1%;
 }
 
@@ -124,7 +128,7 @@ li a:hover {
     left: 0px;
     z-index: 99999;
     background-color: #005F73;
-    color:#E9D8A6;
+    color: #E9D8A6;
 }
 
 #btnl {
@@ -151,5 +155,22 @@ li a:hover {
 #languages {
     padding: 1%;
     background-color: #E9D8A6;
+    color: #005F73;
+}
+
+nav ul {
+    background-color: #94D2BD;
+}
+
+/* Change active page background and text */
+.pagination .page-item.active .page-link {
+    background-color: #005F73;
+    border-color: #005F73;
+    color: white;
+}
+
+/* change hover state for page links */
+.pagination .page-link:hover {
+    background-color: #e3e3e3;
     color: #005F73;
 }
